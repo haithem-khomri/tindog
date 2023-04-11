@@ -1,0 +1,161 @@
+#title{
+    background-color: #ff4c68;
+    color: white !important; 
+    max-height: 100vh;
+    overflow: hidden;
+}
+.section{
+    min-height: 100vh;
+}
+body{
+    font-family: 'Alkatra';
+}
+.navbar{
+    color: white !important;
+}
+h1{
+font-size: 3rem;
+line-height: 1.5;
+font-family: 'Alkatra';
+text-align: center;
+font-weight: bold;
+}
+section .container-fluid{
+    padding: 3% 15%;
+}
+.btn-outline-secondary{
+    color: white !important;
+}
+.navbar-brand{
+    font-family: 'Alkatra';
+    font-size:2.5rem;
+    font-weight: 700;
+}
+.text{
+    margin-top: 30px;
+    margin-bottom: 110px;}
+.row{
+    text-align: center;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.title-img{
+    width: 55%;
+    transform: rotate(15deg);
+}
+/* features */
+.i{
+    font-size: 3rem;
+    transition: 0.3s ease;
+    color: #ef8172 !important;
+}
+#features h3{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#features p{
+    color: #8f8f8f;
+}
+#features .a{
+    margin-top: 30px;
+    padding: 30px;
+}
+.i:hover{
+    cursor: pointer;
+    color: #ff4c68 !important;
+    transform: scale(1.1);
+}
+#features{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Testimonials */
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+#testimonials h2{
+    font-family: 'Alkatra';
+    font-size: 3rem;
+    font-weight: bold;
+}
+.test-img{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 20%;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+/* press */
+#press{
+    text-align: center;
+    padding: 30px;
+    background-color: #ef8172;
+    color: white;
+
+}
+#press img{
+    margin:20px 20px 50px;
+    width: 15%;
+}
+/* cards */
+#pricing{
+    text-align: center;
+    padding: 50px 30px;
+    align-items: center;
+}
+#pricing  .card{
+    text-align: center;
+}
+/* call-of-action */
+#cta{
+    padding: 10% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+/* footer */
+#footer{
+    padding-top: 30px;
+    text-align: center;
+}
+#footer i{
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    color: #ef8172;
+    transition: 0.4s ease;
+    padding-bottom: 15px;
+}
+#footer i:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#footer p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* media */
+@media (max-width: 997px) {
+    #title{
+        overflow: visible;
+        max-height: none;
+        
+    }
+    .title-img{
+        transform: rotate(0deg);
+    }
+}
+
